@@ -1,0 +1,47 @@
+# def add (a,b) :
+#     print(a+b)
+#     print(a)
+#
+#
+# add(100, 200)
+
+# def wish(Name = "Bhushan"):
+#     print("Hello" , Name , "How are you ?")
+#
+# wish()
+
+# def add (a,*b) : # a = 1 b = (2,3,4,5)
+#     c = a           # c = 1
+#
+#     for i in b:      #i = 2 , 3
+#        c = c + i         #3 + 3 +4+5
+#     print(c)
+#
+#
+# add(1,2,3,4,5)
+
+
+
+# def minimum(a,b):
+#     if a < b:
+#         return a
+#     return b
+#
+#
+# minimum(200,300)
+
+#
+# def my_Funct(a,*b):
+#     print("First argument :" , a)
+#     for i in b :
+#         print("Next argument :",i)
+#
+# my_Funct("Hello" , "My name " , "is" , "Kailash")
+
+#Variable length argument is (*args , **kwargs)
+
+# def Dictionary(**kw):
+#     for k,v in kw.items():
+#         print(k , v)
+#
+# Dictionary(name = " Sam" , Age = 25 , Phonenum
